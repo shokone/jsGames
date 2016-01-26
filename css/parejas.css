@@ -1,0 +1,25 @@
+#parejas{
+	width:50%;
+	margin:0 auto;
+	padding:30px;
+	background-color:#1f712c;
+	border:2px black solid;
+	border-radius:20px;
+	visibility:hidden;
+}
+img{
+	height:110px;
+	width:80px;
+	padding:2px;
+}
+#txtarea{
+	clear:both;
+	visibility: hidden;
+    padding:15px;
+}
+#start{
+	padding:10px;
+	margin:10px 0;
+	border-radius:10px;
+	visibility: hidden;
+}

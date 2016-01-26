@@ -1,0 +1,41 @@
+section{
+	padding:30px;
+	margin:auto;
+}
+section div{
+	display:inline-block;
+}
+.rompecabezas{
+	margin:0 200px;
+	margin-left:-30px;
+	padding: 20px 0;
+}
+footer{
+	clear:both;
+	padding:10px;
+	font-weight:bold;
+}
+img{
+	width:140px;
+	height:140px;
+}
+#rompe{
+	visibility:hidden;
+}
+#ejemplo{
+	width:300px;
+	height:300px;
+	float:left;
+}
+.facil{
+	background-image:url("../imagenes/rompecabezas/facil.jpg");
+	background-size:100%;
+}
+.medio{
+	background-image:url("../imagenes/rompecabezas/medio.jpg");
+	background-size:100%;
+}
+.dificil{
+	background-image:url("../imagenes/rompecabezas/dificil.jpg");
+	background-size:100%;
+}

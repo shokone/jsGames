@@ -1,0 +1,67 @@
+body{
+	text-align:center;
+	background-color:darkgray;
+}
+h1{
+	font-size:30px;
+    font-weight: bolder;
+}
+.juegos{
+    margin:140px auto;
+    width:800px;
+    height:450px;
+    border:2px solid green;
+    border-radius:35px;
+    background-image:url(../imagenes/portada.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+.games{margin-top:120px;}
+.boton{
+    padding:20px;
+    margin:5px;
+    width:150px;
+    border-radius:15px;
+}
+a{
+	text-decoration:none;
+}
+.boton:hover{
+	color:whitesmoke;
+	background-color:#009920;
+}
+.noVisible{
+    display:none;
+}
+.botones{
+    margin:5px auto;
+    padding:15px;
+    border-radius:15px;
+    border:2px black solid;
+	width:200px;
+}
+.botones:hover{
+	color:whitesmoke;
+	background-color:#009920;
+}
+.oculto{
+	visibility:hidden;
+}
+.dificul{
+    padding:20px;
+    border-radius:15px;
+    width:200px;
+    margin:10px;
+}
+.dificul:hover{
+	color:whitesmoke;
+	background-color:#009920;
+}
+.reloj{
+    background:whitesmoke;
+    padding:5px;
+    border:2px gray solid;
+    border-radius:5px;
+    width:100px;
+    margin: 0 auto;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mastermind</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="css/mastermind.css"/>
+    <script type="text/javascript" src="js/mastermind.js"></script>
+</head>
+<body>
+    <h1>Mastermind</h1>
+    <div id="dificultad">
+    	<button id="facil" class="dificul" onclick="tablero(this.id)">Modo Fácil - 4 colores</button><br>
+    	<button id="medio" class="dificul" onclick="tablero(this.id)">Modo Medio - 6 colores</button><br>
+    	<button id="dificil" class="dificul" onclick="tablero(this.id)">Modo Difícil - 8 colores</button><br>
+		<button id="repetir" class="dificul" onclick="repOn(this.id)">Repetir colores</button><br>
+       	<button id="cronometro" class="dificul" onclick="modeReloj(this.id)">Modo Contrarreloj</button><br>
+        <a href="index.html"><button class="dificul">Volver al inicio</button></a>
+    </div>
+    <div id="timer" class="reloj oculto"></div>
+    <table id="tabla">
+        <tr><td id="solucion"></td></tr>
+        <tr><td id="v7"></td><td id="c7"></td></tr>
+        <tr><td id="v6"></td><td id="c6"></td></tr>
+        <tr><td id="v5"></td><td id="c5"></td></tr>
+        <tr><td id="v4"></td><td id="c4"></td></tr>
+        <tr><td id="v3"></td><td id="c3"></td></tr>
+        <tr><td id="v2"></td><td id="c2"></td></tr>
+        <tr><td id="v1"></td><td id="c1"></td></tr>
+        <tr><td id="v0"></td><td id="c0"></td></tr>
+    </table>
+    <div id="colore" class="oculto">
+        <div class="text">Orden de colores</div><br>
+        <div class="black circle"></div>
+        <div class="blue circle"></div>
+        <div class="brown circle"></div>
+        <div class="green circle"></div>
+        <div class="orange circle"></div>
+        <div class="red circle"></div>
+        <div class="white circle"></div>
+        <div class="yellow circle"></div>
+    </div>
+    <div id="combi" class="oculto">
+        <button name="checkCombinacion" onclick="checkComb()" class="botones">Comprobar combinación</button><br>
+        <button name="start" id="start" onclick="startGame(this.id)" class="botones">Start game</button><br>
+        <button onclick="recargar()" id="recargar" class="botones">Seleccionar dificultad</button><br>
+        <a href="index.html"><button class="botones">Volver al inicio</button></a>
+    </div>
+    <script>tiempoPerdido();</script>
+</body>
+</html>
